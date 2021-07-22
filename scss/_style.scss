@@ -1,0 +1,29 @@
+
+.section-bg{
+       background-color: lightcoral;
+       .wraper{
+              @include d-flex(flex, space-between, center);
+       
+              .left-block{
+                     width: 400px;
+                     height: 200px;
+                     background-color:$color01;
+                    
+                     .text{
+                            color: #fff;
+                            font-size: 30px;
+                            font-family:$fontqahiri;
+                            &:hover {
+                                   color: $color03;
+
+                               }
+                     }
+              }
+              .right-block{
+                     width: $size01;
+                     height:$size02;
+                     background-color: $color02;
+                   
+              }
+       }
+}
